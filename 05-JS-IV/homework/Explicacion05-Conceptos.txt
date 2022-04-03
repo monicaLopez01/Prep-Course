@@ -1,0 +1,17 @@
+Objeto: En JS un objeto se puede comparar con algo tangible de nuestro entorno, ejemplo: una Taza, cuyas caracteristicas pueden ser el material con la 
+que esta elaborada, su color, dimensiones, volumen, entre otros. En la programacion, un "objeto" tiene propiedades que definen sus caracteristicas.
+Para ello primero se define el objeto, vamos a crear un objeto "alumnos" que nos proporcione caracteristicas como: nombre, edad, grado de estudio
+posteriormente se incluye su caracteristica anexando de que objeto proviene.
+
+Propiedades: Como se menciono anteriormente, todo objeto debe tener "propiedades" que definan sus caracteristicas, es decir, cada propiedad esta asociada con un valor
+Asi en el objeto Alumno, las "Propiedades" que definen su caracteristica, son: Nombre,Edad, Materias que cursa, Grado de estudio
+
+Metodos: Los metodos son acciones predefinidas (Funciones), una de las acciones podria ser "Modificar"una propiedad de un Objeto.
+Por lo tanto, tienen que ser asignados como la propiedad de un objeto.
+
+Bucle 'for...in': Este Bucle, permite comprobar las propiedades de un objeto,es decir, si la propiedad cumple con un "valor" en particular.
+
+Notación de puntos vs notación de corchetes: Los Objetos usan un "identificador" (clave) y un valor asociado a esa clave.
+Posteriormente, para poder acceder a ese valor, existen 2 formas:
+1) Notacion de puntos: se accede al nombre del objeto. Sintaxis:   NombredelObjeto.NombredelaClave
+2) Notacion de corchetes: Sirve para llamar a cada clave del objeto (Agrupacion)

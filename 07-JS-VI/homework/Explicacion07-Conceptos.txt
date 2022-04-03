@@ -1,0 +1,3 @@
+Funciones Callback: En algunas ocasiones las operaciones a realizarse en una porcion del codigo comienzan solo despues de que se haya finalizado una u otras anteriormente,
+es decir, una predecesor inmediata, como no queremos que las operaciones se detengan mientras esperamos respuesta se utilizan funciones denominadas "Callback".
+Estas funciones pueden llamarse en cualquier momento y pasar argumentos dentro de la funcion para que sea llamada de nuevo.

@@ -1,0 +1,22 @@
+Variable: Podemos imaginarnos que la variable es un recipiente que nos sirve para almacenar algo (elemento) de tal manera que podamos hacer uso de ese elemento mas adelante.
+En JS una variable se denota como "var", su sintaxis es:  var nombredeturecipiente= valor que almacenas
+
+Strings: En JS "strings" se considera como parte de una expresion en un pedazo de codigo, es decir, hace referencia a cualquier caracter pero que no se va a utilizar para llevar a cabo alguna operacion aritmetica con el
+es solo texto, para denotarlo se pone entre comillas, por ejemplo, mi nombre: "Monica"
+
+Funciones (argumento 'return'): Una funcion en JS, se puede usar para llevar a cabo una accion y/o evaluar un valor.
+Con el argumeto 'return', evalua un valor si se cumple, lleva a cabo la accion, de lo contrario regresa a evaluar otro valor
+Por ejemplo: voy en el trayecto de mi casa a la escuela, en ese momento checo si me traje el lunch, si es asi, continuo hacia la escuela, si no lo eche a la mochila regreso a casa por el antes de llegar a la escuela
+
+Declaraciones "if": Se considera una sentencia, es decir, lleva a cabo una accion. Para ello, necesita existir una condicion, la cual puede generar dos resultados: verdadero o falso
+Ejemplo:       condicion           if 2 < 3    observamos que al comparar la condicion es verdadero
+           si fuese cierto              sumar 2+3
+           si fuese falso               restar 2-3
+
+Valores booleanos: Son aquellos que resultan de una accion  (condicion), el resultado que se genere puede ser verdadero o falso.
+Para hacer la comparacion se utilizarn operadores logicos, un poco similar a los operadores que utilzamos en nuestras operaciones aritmeticas
+Los operadores logicos permitidos son: mayor que, menor que, mayor o igual que, menor o igual que, igual o diferente.
+Ejemplo:  3=3     10>7          8<=12
+
+Hay otro que se utiliza para unir y formar una oracion  "y"   La luna es magica y hermosa
+Otro caso:                                              "o"   La comida esta muy caliente o salada  

@@ -1,0 +1,5 @@
+Prototype: Sabemos que cuando creamos un "objeto" definimos sus caracteristicas (Propiedades) y estos a su vez tienen su propio "metodo", tanto las propiedades y los metodos ocupan un espacio en la memoria que a la hora de ejecutarse lo realentiza.
+Algunas veces esas "propiedades" puede que sean las mismas en varios objetos, es decir, son comunes, si es el caso se crea un objeto denominado "padre" o "prototipo" donde se aloja toda la informacion que es comun y que comparten todos los objetos 
+de ese tipo. De esta forma evitamos ocupar memoria innecesaria, ya que no se repiten las propiedades y metodos comunes.
+
+ _Constructors_ (de Clases): Nos permite "heredar" ya sea sus propiedades o metodos de un objeto. En el codigo a traves del constructor todo lo que pueda ser ejecutado sera ejecutado tomando en cuenta la funcion utilizada.

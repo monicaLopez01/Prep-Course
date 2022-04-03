@@ -1,0 +1,21 @@
+for: Nos sirve para evaluar algo bajo cierta condicion, para ello, primero debemos especificar que elemento es el que se va a evaluar e indicando que valor tiene asignado, posteriomente se menciona la condicion (dicho elemento forma parte de la condicion) y por ultimo mientras la condicion sea verdadera se sigue ejecutando de lo contrario finaliza esa accion.
+lo anterior despues del prefijo "for" debe ir entre parentesis
+Ejemplo:
+for (let i=1;      i<7;  i++)
+en este fragmento de codigo, se estara evaluando el valor de "i" mientras sea igual a 1 y a su vez menor que 7, deja de hacerlo mientras el numero no entre en el intervalo
+
+&&: Su denotacion en JS se considera como un operador logico, significa "y". Nos sirve para unir dos expresiones, las cuales se evaluan por separado.
+Si al evaluar las dos expresiones el resultado obtenido es verdadero nos devuelve "verdadero", si se obtiene en las dos falso, el resultado es falso, si una de ellas es falso y otra verdadera o viceversa el resultado es falso
+Ejemplo: Los perros tienen una pata && algunos son negro, nos da como resultado "Falso"
+Interpretacion:      Los perros tienen una pata, sabemos que es falso, son cuadrupedos
+                    algunos son negro, verdadero, sabemos que algunas razas de perros tienen este color
+
+||: Su denotacion en JS se considera como un operador logico, significa "o". Nos sirve para unir dos expresiones, las cuales se evaluan por separado.
+Si al evaluar las dos expresiones el resultado obtenido es falso nos devuelve "falso", si una de ellas o ambas es verdadera el resultado es verdadero
+Ejemplo: Los perros tienen una pata || algunos son negro, nos da como resultado "verdadero"
+Interpretacion:      Los perros tienen una pata, sabemos que es falso, son cuadrupedos
+                    algunos son negro, verdadero, sabemos que algunas razas de perros tienen este color
+
+!: Su denotacion en JS se considera como un operador logico, significa "No", es decir, de negacion. Nos sirve para negar una oracion, es decir lo opuesto.
+Ejemplo:  !(Los perros tienen una pata)          Todos sabemos que es "Falso"
+Interpretacion:      aunque sabemos que es falso nos genera el resultado de "verdadero" por estar presente el operador de negacion antes de la oracion

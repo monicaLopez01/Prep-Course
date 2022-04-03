@@ -1,0 +1,11 @@
+Arrays: Es un arreglo. Cuando declaramos una variable, no necesariamente es para asignarle un solo valor como Nombre="Monica", en la codificacion en JS nos es posible asignar mas de un valor a una variable guardandose en un mismo lugar.  Para ello nos 
+apoyamos de un "Array", algunos autores tambien le denominan Matrices.
+En Matematicas usamos las matrices para dar solucion a un sistema de ecuaciones lineales, como 2x+y=4; x+y=3, en este ejemplo lo relacionamos a una matriz de 2x2, 2 renglones 2 columnas.
+En nuestro de la codificacion podemos decir que solo hacemos referencia a un solo renglon con varias columnas.
+Como es:
+         Quiero almacenar los nombres de mis meses favoritos, para ello lo declararia de la siguiente manera:
+
+         mesesFavoritos= ["Abril", "Julio", "Septiembre", "Octubre"]
+
+         donde "mesesFavoritos"  es la variable que contiene mis 4 meses favoritos y puedo acceder a ellos en cualquier momento
+         como parte de su sintaxis, al declarar la variable utilizamos los corchetes [], para agrupar sus elementos, los cuales pueden ser numeros, texto
