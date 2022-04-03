@@ -1,4 +1,5 @@
 // No cambies los nombres de las funciones.
+// Homework
 
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
